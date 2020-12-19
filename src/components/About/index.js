@@ -18,7 +18,7 @@ function About() {
                 team member is as important as the rest.
                 </p>
                 <p>
-                    I have little patience for ego, temper, or arrogance; I love it when a team comes together, as one to achieve something 
+                    I have little patience for ego, temper, or arrogance; I love it when a team comes together as one to achieve something 
                     amazing.
                 </p>
                 <p>

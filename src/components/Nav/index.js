@@ -1,9 +1,16 @@
 import React from 'react';
 
 function Nav(props) {
+    const {
+        setAboutSelected,
+        setContactSelected,
+        setPortfolioSelected,
+        setLinksSelected
+    } = props;
+
     return (
         <header className = "flex-row px-1 header-background">
-            <h2>
+            <h2 href="about" onClick={()=> setAboutSelected(true)}>
                 Jani Muhlestein
             </h2>
             <nav>
