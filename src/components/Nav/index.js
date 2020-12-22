@@ -10,8 +10,8 @@ function Nav(props) {
 
     return (
         <header className = "flex-row px-1 header-background">
-            <h2 href="about" onClick={()=> setAboutSelected(true)}>
-                Jani Muhlestein
+            <h2>
+                <a href="/" className = "name">Jani Muhlestein</a>
             </h2>
             <nav>
                 <ul className = "flex-row">

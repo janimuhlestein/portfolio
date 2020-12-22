@@ -33,8 +33,13 @@ main {
   margin-top: 40px;
 }
 
+
 footer {
   text-align: center;
+}
+
+.name {
+  color: var(--dark);
 }
 
 header {
@@ -76,7 +81,7 @@ body {
   letter-spacing: .1em;
   background: var(--dark);
   color: var(--light);
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Federo', sans-serif;
 
 }
 

@@ -5,18 +5,18 @@ function ProjectCard(props) {
     return (
         <div className = "card">
             <div className = 'img-container'>
-                <img alt={props.name} src={props.image} />
+            <a href={props.link}><img src={props.image} alt={props.name} onClick={props.link} /></a>
             </div>
             <div className = "content">
                 <ul>
                     <li>
-                        <strong>Name:</strong> {props.name}
+                        Name: {props.name}
                     </li>
                     <li>
-                        <strong>Description:</strong> {props.description}
+                        Description: {props.description}
                     </li>
                     <li>
-                        <strong>Technology:</strong> {props.technology}
+                        Technology: {props.technology}
                     </li>
                 </ul>
             </div>
