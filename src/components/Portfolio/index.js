@@ -101,11 +101,11 @@ function Portfolio() {
     }
 ]);
     return (
-
+        <section>
+            <div>
+                <h1 className = "title">Project List</h1>
+            </div>
         <Wrapper>
-        <div>
-            <h1 className = "title">Project List</h1>
-        </div>
             {projectList.map(project=>(
                 <ProjectCard
                 id={project.id}
@@ -118,7 +118,7 @@ function Portfolio() {
                 />
             ))}
         </Wrapper>
-
+        </section>
     );
 };
 
