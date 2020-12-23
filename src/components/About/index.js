@@ -5,9 +5,9 @@ function About() {
     return (
         <section className = "my-5 coverImage">
             <div className = "coverImage top">
-            <img src={coverImage} className = "coverImage" style={{ width: "50%"}} alt = "female developer" />
+            <img src={coverImage} className = "coverImage" style={{ width: "30%"}} alt = "female developer" />
             <div>
-                <p>I am a software tester, full-stack software developer, writer, historian, musician, and avid supporter of our military.</p>
+                <p className="cover-Image top">I am a software tester, full-stack software developer, writer, historian, musician, and avid supporter of our military.</p>
                 <p>I have worked in the software industry for 25 years. I adore software: creating it, and breaking it.
                     </p>
                 <p>

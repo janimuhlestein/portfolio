@@ -1,12 +1,6 @@
 import React from 'react';
 
-function Nav(props) {
-    const {
-        setAboutSelected,
-        setContactSelected,
-        setPortfolioSelected,
-        setLinksSelected
-    } = props;
+function Nav() {
 
     return (
         <header className = "flex-row px-1 header-background">
@@ -16,13 +10,13 @@ function Nav(props) {
             <nav>
                 <ul className = "flex-row">
                     <li className = "mx-2">
-                        <a href = "#contact" className = "nav">Contact</a>
+                        <a href = "/contact" className = "nav">Contact</a>
                     </li>
                     <li className = "mx-2">
-                        <a href = "#portfolio" className = "nav">Portfolio</a>
+                        <a href = "/portfolio" className = "nav">Portfolio</a>
                     </li>
                     <li className = "mx-2">
-                        <a href = "#links" className = "nav">Links</a>
+                        <a href = "/links" className = "nav">Links</a>
                     </li>
                 </ul>
             </nav>

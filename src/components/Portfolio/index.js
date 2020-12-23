@@ -101,9 +101,9 @@ function Portfolio() {
     }
 ]);
     return (
-        <section>
-            <div>
-                <h1 className = "title">Project List</h1>
+        <section className="project-top">
+            <div className="top">
+                <h1 className = "title">My Projects</h1>
             </div>
         <Wrapper>
             {projectList.map(project=>(

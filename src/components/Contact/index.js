@@ -41,7 +41,7 @@ function ContactForm() {
     return (
         <section>
             <h1 data-testid>Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" className="contact-top" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
                     <input type = "text" defaultValue={name} onBlur = {handleChange} name = "name" />

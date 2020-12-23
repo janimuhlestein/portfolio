@@ -1,26 +1,41 @@
-import React, { useState } from 'react';
+import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
 import About from './components/About';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import ContactForm from './components/Contact';
+import Links from './components/Links';
   
-function App() {
-  const [aboutSelected, setAboutSelected] = useState(true);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-
-  
+function App() { 
   return (
+    <Router>
     <div>
       <Nav></Nav>
-      <main>
-        <div>
-        <Portfolio></Portfolio>
-        </div>
-      </main>
+     <Switch>
+       <Route path="/about">
+         <About/>
+       </Route>
+       <Route path ="/contact">
+        <ContactForm/>
+       </Route>
+       <Route path="/portfolio">
+         <Portfolio/>
+       </Route>
+       <Route path = "/links">
+         <Links/>
+       </Route>
+       <Route path="/">
+         <About/>
+       </Route>
+     </Switch>
       <Footer></Footer>
     </div>
+    </Router>
   )
 }
 

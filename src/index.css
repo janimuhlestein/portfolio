@@ -24,13 +24,22 @@ main {
 
 .coverImage {
   display: flex;
-  margin-right: 20px;
+  margin-top: 60px;
+  margin-right: 30px;
   margin-bottom: 20px;
+  margin-left: 30px;
   font-family: 'Federo', sans-serif;
 }
 
 .top {
   margin-top: 40px;
+}
+
+.links-top {
+  margin-top: 150px;
+  text-align: center;
+  color: white;
+  font-size: 40px;
 }
 
 
@@ -43,18 +52,31 @@ footer {
 }
 
 header {
+  top: 0;
+  left: 0;
   font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .aboutMe {
-  margin-top: 40px;
+  padding-top: 100px;
   margin-left: 20px;
   margin-bottom: 20px;
+  margin-top: 30px;
   font-family: 'Playball', cursive;
 }
 
 .nav {
   color: var(--dark);
+}
+
+.project-top {
+  margin-top: 70px;
+}
+
+.contact-top {
+  margin-top: 70px;
+  margin-left: 30px;
 }
 
 
@@ -73,7 +95,7 @@ body {
 }
 
 body {
-  margin: 0;
+  margin-top: 0;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
