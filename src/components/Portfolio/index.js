@@ -38,7 +38,7 @@ function Portfolio() {
         "name": "Budget Tracker",
         "image": budgetImage,
         "description": "A budget-tracking application.",
-        "technology": "Javascript, Node, MongodB",
+        "technology": "Javascript, Node, MongoDB",
         "link": "https://github.com/janimuhlestein/budget-tracker"
         
     },
