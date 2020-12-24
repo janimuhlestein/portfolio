@@ -5,7 +5,7 @@ function ProjectCard(props) {
     return (
         <div className = "card">
             <div className = 'img-container'>
-            <a href={props.link}><img src={props.image} alt={props.name} onClick={props.link} /></a>
+            <a href={props.liveLink}><img src={props.image} alt={props.name} onClick={props.liveLink} /></a>
             </div>
             <div className = "content">
                 <ul>
@@ -16,7 +16,7 @@ function ProjectCard(props) {
                         Description: {props.description}
                     </li>
                     <li>
-                        Technology: {props.technology}
+                        <a className="card" href={props.gitHublink}>Github</a>
                     </li>
                 </ul>
             </div>

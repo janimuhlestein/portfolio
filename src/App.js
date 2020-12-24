@@ -17,16 +17,16 @@ function App() {
     <div>
       <Nav></Nav>
      <Switch>
-       <Route path="/about">
+       <Route exact path="/about" component = "about">
          <About/>
        </Route>
-       <Route path ="/contact">
+       <Route exact path ="/contact" component = "contact">
         <ContactForm/>
        </Route>
-       <Route path="/portfolio">
+       <Route exact path="/portfolio" component = "portfolio">
          <Portfolio/>
        </Route>
-       <Route path = "/links">
+       <Route exact path = "/links" component = "links">
          <Links/>
        </Route>
        <Route path="/">
