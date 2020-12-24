@@ -1,6 +1,6 @@
 {
+  "homepage": "https://janimuhlestein.github.io/about",
   "name": "portfolio",
-  "homepage": "https://janimuhlestein.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
