@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  HashRouter,
+  BrowserRouter,
   Switch,
   Route
 } from "react-router-dom";
@@ -13,7 +13,7 @@ import Links from './components/Links/index.js';
   
 function App() { 
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
     <div>
       <Nav></Nav>
      <Switch>
@@ -35,7 +35,7 @@ function App() {
      </Switch>
       <Footer></Footer>
     </div>
-    </HashRouter>
+    </BrowserRouter>
   )
 }
 
